@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Ootter!",
+        "name": "Ootter BP",
+        "uuid": "17fa559b-65ae-4a5f-af8d-a01490c19011",
+        "version": [
+            1,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Ootter!",
+            "type": "data",
+            "uuid": "6675cc8f-3e60-4b2c-be18-78e300c4a7f5",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "8c001eba-285d-4428-91c9-9151f23e3eb0",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ]
+}

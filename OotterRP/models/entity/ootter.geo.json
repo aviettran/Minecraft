@@ -1,0 +1,195 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ootter",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "leg0",
+					"pivot": [
+						-8,
+						2,
+						-6
+					],
+					"cubes": [
+						{
+							"origin": [
+								-8,
+								0,
+								-7
+							],
+							"size": [
+								0,
+								2,
+								2
+							],
+							"uv": [
+								51,
+								45
+							]
+						}
+					]
+				},
+				{
+					"name": "leg1",
+					"pivot": [
+						5,
+						2,
+						4
+					],
+					"cubes": [
+						{
+							"origin": [
+								5,
+								0,
+								3
+							],
+							"size": [
+								0,
+								2,
+								2
+							],
+							"uv": [
+								51,
+								45
+							]
+						}
+					]
+				},
+				{
+					"name": "leg2",
+					"pivot": [
+						-8,
+						2,
+						3
+					],
+					"cubes": [
+						{
+							"origin": [
+								-8,
+								0,
+								2
+							],
+							"size": [
+								0,
+								2,
+								2
+							],
+							"uv": [
+								51,
+								45
+							]
+						}
+					]
+				},
+				{
+					"name": "leg3",
+					"pivot": [
+						5,
+						2,
+						-6
+					],
+					"cubes": [
+						{
+							"origin": [
+								5,
+								0,
+								-7
+							],
+							"size": [
+								0,
+								2,
+								2
+							],
+							"uv": [
+								51,
+								45
+							]
+						}
+					]
+				},
+				{
+					"name": "body",
+					"pivot": [
+						-1.5,
+						6.16667,
+						1.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								-6,
+								9,
+								-9
+							],
+							"size": [
+								9,
+								2,
+								15
+							],
+							"uv": [
+								7,
+								22
+							]
+						},
+						{
+							"origin": [
+								-8,
+								2,
+								-9
+							],
+							"size": [
+								13,
+								7,
+								15
+							],
+							"uv": [
+								0,
+								0
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [
+						-1.5,
+						3,
+						6.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								-2,
+								2,
+								6
+							],
+							"size": [
+								1,
+								2,
+								3
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

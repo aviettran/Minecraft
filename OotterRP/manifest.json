@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Ootter!",
+        "name": "Ootter RP",
+        "uuid": "8c001eba-285d-4428-91c9-9151f23e3eb0",
+        "version": [
+            1,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Ootter!",
+            "type": "resources",
+            "uuid": "22bfaf14-c722-4bd8-be50-144c84a087c4",
+            "version": [
+                1,
+                0,
+                1
+            ]
+        }
+    ]
+}

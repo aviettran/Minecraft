@@ -1,0 +1,35 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "avt:ootter",
+            "materials": {
+                "default": "cow"
+            },
+            "textures": {
+                "default": "textures/entity/ootter"
+            },
+            "geometry": {
+                "default": "geometry.ootter"
+            },
+            "animations": {
+                "walk": "animation.ootter.walk"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "walk": "query.modified_move_speed"
+                    }
+                ]
+            },
+            "render_controllers": [
+                "controller.render.ootter"
+            ],
+            "enable_attachables": false,
+            "spawn_egg": {
+                "base_color": "#949493",
+                "overlay_color": "#651818"
+            }
+        }
+    }
+}
